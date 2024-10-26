@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Getting Started with Three.js</title>
+    <title> 3D Model Viewer </title>
     <style>
       body {
         margin: 0;
@@ -20,5 +20,41 @@
   </head>
   <body>
     <script type="module" src="index.js"></script>
+    <button id="changeGeometry" 
+    style="position: absolute; bottom: 20px; left: 10px; border: none; width: 200px;
+           background-color: rgba(162, 44, 255, 0.13); color: white; font-size: 18px;
+           padding: 10px 20px; border-radius: 5px; cursor: pointer;"
+    onmouseover="this.style.backgroundColor='#a22caaff';" 
+    onmouseout="this.style.backgroundColor='rgba(162, 44, 255, 0.13)';">
+    Change Geometry
+</button>
+<button id="changeMaterial" 
+style="position: absolute; bottom: 80px; left: 10px; border: none; width: 200px;
+       background-color: rgba(162, 44, 255, 0.13); color: white; font-size: 18px;
+       padding: 10px 20px; border-radius: 5px; cursor: pointer;"
+onmouseover="this.style.backgroundColor='#a22caaff';" 
+onmouseout="this.style.backgroundColor='rgba(162, 44, 255, 0.13)';">
+Change Material
+</button>
+
+<button id="changeLight" 
+style="position: absolute; bottom: 140px; left: 10px; border: none; width: 200px;
+       background-color: rgba(162, 44, 255, 0.13); color: white; font-size: 18px;
+       padding: 10px 20px; border-radius: 5px; cursor: pointer;"
+onmouseover="this.style.backgroundColor='#a22caaff';" 
+onmouseout="this.style.backgroundColor='rgba(162, 44, 255, 0.13)';">
+Change Light
+</button>
+
+<button id="manual" 
+style="position: absolute; bottom: 200px; left: 10px; border: none; width: 200px;
+       background-color: rgba(162, 44, 255, 0.13); color: white; font-size: 18px;
+       padding: 10px 20px; border-radius: 5px; cursor: pointer;"
+onmouseover="this.style.backgroundColor='#a22caaff';" 
+onmouseout="this.style.backgroundColor='rgba(162, 44, 255, 0.13)';">
+How to Use it
+</button>
+
+
   </body>
 </html>
